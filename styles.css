@@ -1,0 +1,153 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: blue;
+    margin-top: 0%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav h2{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+nav a{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav button{
+    width: 10%;
+    margin: 1%;
+    color: blue;
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 1%;
+    flex-wrap: wrap;
+    
+    
+}
+.product-list img{
+    height: 64px;
+    width: 64px;
+ 
+}
+
+.product-list a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.image-sliders{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-sliders button{
+    width: 5%;
+    margin-top: 1%;
+}
+.image-sliders img{
+    margin-top: 1%;
+    width: 95%;
+}
+
+.electronics{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.electronics img {
+    width: 100px;
+    height: 100px;
+}
+
+.electronics button{
+    padding:20px;
+    background-color: blue;
+    color: white;
+}
+
+.deals{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.deals img {
+    width: 100px;
+    height: 100px;
+}
+
+.deals button{
+    padding:20px;
+    background-color: blue;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.footer-items{
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer p{
+    color: white;
+}
+
+.hero-image-mobile img{
+    margin-top: 2%;
+    width: 100%;
+}
+
+.hero-image-mobile h1{
+    text-align: center;
+    color: blue;
+}
+
+.hero-image-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.img1{
+    width: 30%;
+    margin-left: 35%;
+
+}
